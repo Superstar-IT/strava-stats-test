@@ -32,9 +32,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 async function init() {
   const initialState = {
-    activity: {
-      activities: {},
-      recentActivites: [],
+    post: {
+      users: {},
+      recentPosts: [],
     },
   };
   const store = configureStore(initialState);

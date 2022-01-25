@@ -15,22 +15,23 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import MonthlyStats from "views/MonthlyStats.js";
-import Activities from "views/Activities.js";
+
+import Posts from "views/Posts";
+import Users from "views/Users";
 
 const dashboardRoutes = [
   {
-    path: "/activities",
-    name: "Activities",
+    path: "/posts",
+    name: "Posts",
     icon: "nc-icon nc-notes",
-    component: Activities,
+    component: Posts,
     layout: "",
   },
   {
-    path: "/monthlyStats",
-    name: "Monthly Stats",
+    path: "/users",
+    name: "Users",
     icon: "nc-icon nc-chart-bar-32",
-    component: MonthlyStats,
+    component: Users,
     layout: "",
   },
 ];

@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import ActivityReducer from "store/reducers/activity";
+import PostReducer from "store/reducers/post";
 
 const rootReducer = combineReducers({
-  activity: ActivityReducer,
+  post: PostReducer,
 });
 
 export default rootReducer;

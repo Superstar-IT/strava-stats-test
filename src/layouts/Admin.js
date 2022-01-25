@@ -66,7 +66,7 @@ function Admin() {
           <div className="content">
             <Switch>
               {getRoutes(routes)}
-              <Redirect from="*" to="/activities" />
+              <Redirect from="*" to="/posts" />
             </Switch>
           </div>
         </div>
